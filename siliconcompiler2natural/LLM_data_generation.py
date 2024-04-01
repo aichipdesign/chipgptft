@@ -3,7 +3,7 @@ import json
 import os
 
 
-client = OpenAI(api_key="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")  # api of chatgpt 
+client = OpenAI(api_key="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")  # api of chatgpt 
 
 class ChatGPT:
     def __init__(self, user):
