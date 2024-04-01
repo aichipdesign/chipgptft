@@ -1,0 +1,7 @@
+[
+    {
+        "instruction": "This input is not a bug-free code. Please read the code and try to summarize the bug information.",
+        "input": "module counter (wen, clk, rst, en, count);  \n\n   input clk, rst, en;\n   output reg [1:0] count;\n\n   always @(posedge clk)\n      if (rst)\n         count <= 2'd0;\n      else if (en)\n         count <= count + 2'd1;\n\nendmodule",
+        "output": "The port list was modified."
+    }
+]

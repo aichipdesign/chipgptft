@@ -1,0 +1,10 @@
+site_name: ChipGPT-FT 
+nav:
+- Home: index.md
+- Verilog Completion: autogen.md
+- Verilog to Natural Language: v2n.md
+- SiliconCompiler Script To Natural Language: s2nl.md
+- Verilog Repair data generating: vrdg.md
+- Auto Benchmarking Tool: autobench.md
+theme: 
+  name: readthedocs 

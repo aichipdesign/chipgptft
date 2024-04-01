@@ -1,0 +1,152 @@
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/accu_/accu_4/accu.v
+syntax: syntax correct
+function: ===========Error===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/accu_/accu_3/accu.v
+syntax: syntax correct
+function: ===========Error===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/accu_/accu_1/accu.v
+syntax: syntax correct
+function: ===========Error===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/accu_/accu_0/accu.v
+syntax: syntax correct
+function: ===========Error===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/accu_/accu_2/accu.v
+syntax: syntax correct
+function: ===========Error===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_8bit_/adder_8bit_2/adder_8bit_2.v
+syntax: syntax correct
+function: ===========Your Design Passed===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_8bit_/adder_8bit_4/adder_8bit.v
+syntax: syntax correct
+function: ===========Your Design Passed===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_8bit_/adder_8bit_1/adder_8bit.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_8bit_/adder_8bit_1/testbench.v:17: error: port ``SUM'' is not a port of uut.
+1 error(s) during elaboration.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_8bit_/adder_8bit_0/adder_8bit.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_8bit_/adder_8bit_0/testbench.v:17: error: port ``SUM'' is not a port of uut.
+1 error(s) during elaboration.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_8bit_/adder_8bit_3/adder_8bit.v
+syntax: syntax correct
+function: ===========Your Design Passed===========
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:23: error: Part select sum[4:7] indices reversed.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:23:      : Did you mean sum[7:4]?
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:24: error: Part select sum[8:11] indices reversed.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:24:      : Did you mean sum[11:8]?
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:25: error: Part select sum[12:15] indices reversed.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:25:      : Did you mean sum[15:12]?
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:28: warning: Port 1 (in0) of mux2to1 expects 4 bits, got 1.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:28:        : Padding 3 high bits of the port.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:28: warning: Port 2 (in1) of mux2to1 expects 4 bits, got 1.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:28:        : Padding 3 high bits of the port.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:28: warning: Port 4 (out) of mux2to1 expects 4 bits, got 1.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_3/carry_select_adder_16bit.v:28:        : Padding 3 high bits of the port.
+3 error(s) during elaboration.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_0/carry_select_adder_16bit.v
+syntax: syntax correct
+function: A=    0, B=    0, Cin= 0, Sum=    0, Cout=0
+A=    0, B=    0, Cin= 1, Sum=    1, Cout=0
+A=   14, B=    1, Cin= 1, Sum=    X, Cout=0
+A=    5, B=    0, Cin= 0, Sum=    5, Cout=0
+A=  999, B=    0, Cin= 1, Sum=    X, Cout=0
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_2/full_adder.v
+syntax: syntax correct
+function: A=    0, B=    0, Cin= 0, Sum=    0, Cout=0
+A=    0, B=    0, Cin= 1, Sum=    1, Cout=0
+A=   14, B=    1, Cin= 1, Sum=   16, Cout=0
+A=    5, B=    0, Cin= 0, Sum=    1, Cout=0
+A=  999, B=    0, Cin= 1, Sum=  256, Cout=0
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_4/adder_4bit.v
+syntax: syntax correct
+function: A=    0, B=    0, Cin= 0, Sum=    0, Cout=0
+A=    0, B=    0, Cin= 1, Sum=    1, Cout=0
+A=   14, B=    1, Cin= 1, Sum=    0, Cout=0
+A=    5, B=    0, Cin= 0, Sum=    5, Cout=0
+A=  999, B=    0, Cin= 1, Sum= 1000, Cout=0
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_1/carry_select_adder_16bit.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_1/carry_select_adder_16bit.v:31: error: Module definition rca_4bit cannot nest into module carry_select_adder_16bit.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/adder_16bit_csa_/adder_16bit_csa_1/carry_select_adder_16bit.v:41: error: Module definition mux2to1 cannot nest into module carry_select_adder_16bit.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_2/div_16bit.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_2/testbench.v:12: error: 'expected_result' has already been declared in this scope.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_2/testbench.v:10:      : It was declared here as a variable.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_3/div_16bit_3.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_3/testbench.v:12: error: 'expected_result' has already been declared in this scope.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_3/testbench.v:10:      : It was declared here as a variable.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_1/div_16bit.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_1/testbench.v:12: error: 'expected_result' has already been declared in this scope.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_1/testbench.v:10:      : It was declared here as a variable.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_4/div_16bit_4.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_4/testbench.v:12: error: 'expected_result' has already been declared in this scope.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_4/testbench.v:10:      : It was declared here as a variable.
+
+----------------------------
+----------------------------
+design: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_0/div_16bit_0.v
+syntax: syntax error
+detail: /home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_0/testbench.v:12: error: 'expected_result' has already been declared in this scope.
+/home/datasets/DAC_openSource/autotest/arithmetic_modi/div_16bit_/div_16bit_0/testbench.v:10:      : It was declared here as a variable.
+
+----------------------------

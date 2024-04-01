@@ -1,0 +1,83 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.37 (git sha1 a5c7f69ed8f, gcc 11.4.0-1ubuntu1~22.04 -fPIC -Os)
+
+
+-- Executing script file `./testrelated/ysscript.ys' --
+
+1. Executing Verilog-2005 frontend: ./testdir/Wrong/wrong_reset.v
+Parsing SystemVerilog input from `./testdir/Wrong/wrong_reset.v' to AST representation.
+Generating RTLIL representation for module `\reset'.
+./testdir/Wrong/wrong_reset.v:40: Warning: Identifier `\pipe_in' is implicitly declared.
+./testdir/Wrong/wrong_reset.v:40: Warning: Identifier `\pipe_out' is implicitly declared.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+3. Executing PROC pass (convert processes to netlists).
+
+3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+3.4. Executing PROC_INIT pass (extract init attributes).
+
+3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module reset.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module reset...
+Warning: Wire reset.\out_n is used but has no driver.
+Warning: Wire reset.\rst_n_out is used but has no driver.
+Warning: found logic loop in module reset:
+    cell $logic_and$./testdir/Wrong/wrong_reset.v:55$2 ($logic_and)
+    cell $logic_or$./testdir/Wrong/wrong_reset.v:56$3 ($logic_or)
+    wire $logic_and$./testdir/Wrong/wrong_reset.v:55$2_Y
+    wire $logic_or$./testdir/Wrong/wrong_reset.v:56$3_Y
+Found and reported 3 problems.
+
+Warnings: 5 unique messages, 5 total
+End of script. Logfile hash: 23f79272a1, CPU: user 0.01s system 0.00s, MEM: 11.92 MB peak
+Yosys 0.37 (git sha1 a5c7f69ed8f, gcc 11.4.0-1ubuntu1~22.04 -fPIC -Os)
+Time spent: 45% 2x read_verilog (0 sec), 28% 1x opt_expr (0 sec), ...

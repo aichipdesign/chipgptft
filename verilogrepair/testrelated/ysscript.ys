@@ -1,0 +1,4 @@
+read_verilog -sv ./testdir/Wrong/wrong_reset.v 
+hierarchy 
+proc;
+check

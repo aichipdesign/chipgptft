@@ -1,0 +1,7 @@
+nohup: ignoring input
+module name: decoder_using_assign
+list of port declarations: (binary_in,decoder_out,enable)
+node name: binary_in
+node name: decoder_out
+node name: enable
+net declaration: wire[15:0]decoder_out;
