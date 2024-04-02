@@ -7,25 +7,12 @@
 - EDA Tool Script Data Augmentation
 - LLM for Verilog Automatic benchmark Tool
 
+Use mkdocs in docs folder for more information.
+
 ## Prerequist
 
 - antlr4
 - python
-
-## Install
-
-~~~bash
-pip install llm4chip
-~~~
-
-## Usage
-
-
-## Large Language Model
-
-
-
-
 
 
 ## Team Members
