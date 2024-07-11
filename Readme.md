@@ -17,21 +17,9 @@ Use mkdocs in docs folder for more information.
 
 ## Team Members
 
-Authors: Kaiyan Chang, Kun Wang, Nan Yang, Ying Wang*(Corresponding Author, Advisor), Dantong Jin, Wenlong Zhu, Zhirong Chen, Cangyuan Li, Hao Yan, Yunhao Zhou, Zhuoliang Zhao, Yuan Cheng, Yudong Pan, Yiqi Liu, Mengdi Wang, Shengwen Liang, yinhe han, Huawei Li and Xiaowei Li
+Authors: **Kaiyan Chang**, Kun Wang, Nan Yang, Ying Wang*(Corresponding Author, Advisor), Dantong Jin, Wenlong Zhu, Zhirong Chen, Cangyuan Li, Hao Yan, Yunhao Zhou, Zhuoliang Zhao, Yuan Cheng, Yudong Pan, Yiqi Liu, Mengdi Wang, Shengwen Liang, yinhe han, Huawei Li and Xiaowei Li
 
 Affiliate: Institute of Computing Technology, Chinese Academy of Science
-
-**Nan Yang** is responsible for antlr for data augmentation tool repo.
-
-**Kun Wang** is responsible for LLM repo, his personal page is [Personal Page](https://github.com/fireceW).
-
-**Wenlong Zhu** is responsible for verilog repair data augmentation repo.
-
-**Yunhao Zhou** is responsible for automatic benchmark tool repo.
-
-
-
-
 
 
 
@@ -46,4 +34,6 @@ Affiliate: Institute of Computing Technology, Chinese Academy of Science
 }
 ```
 
-Submit this work to DAC by 2023-11-21, initial public offering of this work is at 2024-3-31.
+# Email
+
+If you have any question, please contact changkaiyan@live.com
