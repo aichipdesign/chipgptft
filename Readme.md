@@ -17,7 +17,7 @@ Use mkdocs in docs folder for more information.
 
 ## Team Members
 
-Authors: **Kaiyan Chang**, Kun Wang, Nan Yang, Ying Wang*(Corresponding Author, Advisor), Dantong Jin, Wenlong Zhu, Zhirong Chen, Cangyuan Li, Hao Yan, Yunhao Zhou, Zhuoliang Zhao, Yuan Cheng, Yudong Pan, Yiqi Liu, Mengdi Wang, Shengwen Liang, yinhe han, Huawei Li and Xiaowei Li
+Authors: **Kaiyan Chang**, Kun Wang, Nan Yang, Ying Wang*(Corresponding Author, Advisor), Dantong Jin, Wenlong Zhu, Zhirong Chen, Cangyuan Li, Hao Yan, Yunhao Zhou, Zhuoliang Zhao, Yuan Cheng, Yudong Pan, Yiqi Liu, Mengdi Wang, Shengwen Liang, yinhe Han, Huawei Li and Xiaowei Li
 
 Affiliate: Institute of Computing Technology, Chinese Academy of Science
 
@@ -25,6 +25,10 @@ Affiliate: Institute of Computing Technology, Chinese Academy of Science
 ## Dataset Link
 
 https://modelscope.cn/datasets/changkaiyan/chipgptseries
+
+## Model Link
+
+https://www.modelscope.cn/models/changkaiyan/ChipGPT-Llama3.1-8B-SFT (Verilog Generation)
 
 ## Reference
 ```bibtex
