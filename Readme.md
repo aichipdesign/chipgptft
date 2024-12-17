@@ -27,8 +27,8 @@ Affiliate: Institute of Computing Technology, Chinese Academy of Science
 https://modelscope.cn/datasets/changkaiyan/chipgptseries
 
 ## Model Link
-
-https://www.modelscope.cn/models/changkaiyan/ChipGPT-Llama3.1-8B-SFT (Verilog Generation)
+https://www.modelscope.cn/models/changkaiyan/ChipGPT-Llama2-SFT-7B (Comprehensive Version for Verilog Generation, Siliconcompiler and Verilog Repair.)
+https://www.modelscope.cn/models/changkaiyan/ChipGPT-Llama3.1-8B-SFT (Extended Verilog Generation Version.)
 
 ## Reference
 ```bibtex
